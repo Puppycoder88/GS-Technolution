@@ -21,20 +21,55 @@ nav {
     position: fixed;
     width: 100%;
     top: 0;
+    z-index: 1000;
 }
 
-nav ul {
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.menu-toggle {
+    display: none;
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+
+.nav-links {
     list-style: none;
     display: flex;
 }
 
-nav ul li {
+.nav-links li {
     margin: 0 15px;
 }
 
-nav ul li a {
+.nav-links a {
     color: white;
     text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: block;
+    }
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background: #333;
+        padding: 10px 0;
+    }
+    .nav-links.active {
+        display: flex;
+    }
+    .nav-links li {
+        margin: 10px 0;
+        text-align: center;
+    }
 }
 
 /* Hero Section */
