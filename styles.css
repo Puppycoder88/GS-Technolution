@@ -7,13 +7,14 @@
 
 body {
     scroll-behavior: smooth;
+    padding-top: 60px;
 }
 
 /* Navigation */
 nav {
     background: #333;
     color: white;
-    padding: 10px 20px;
+    padding: 16px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -77,47 +78,5 @@ nav ul li a {
     text-decoration: none;
     margin-top: 20px;
     display: inline-block;
-}
-
-/* Sections */
-section {
-    padding: 60px 20px;
-    text-align: center;
-}
-
-/* Services */
-.service-box {
-    margin: 20px;
-    padding: 20px;
-    border: 1px solid #ddd;
-    display: inline-block;
-    width: 30%;
-}
-
-/* Contact Form */
-form {
-    max-width: 400px;
-    margin: auto;
-}
-
-input, textarea {
-    width: 100%;
-    padding: 10px;
-    margin: 10px 0;
-    border: 1px solid #ddd;
-}
-
-button {
-    background: #333;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-}
-
-/* Footer */
-footer {
-    background: #333;
-    color: white;
-    text-align: center;
-    padding: 10px;
+    border-radius: 5px;
 }

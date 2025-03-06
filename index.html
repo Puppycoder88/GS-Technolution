@@ -1,81 +1,207 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>GS Technolution</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="site.webmanifest">
-</head>
-<body>
-
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png" />
+    <link rel="manifest" href="favicons/site.webmanifest" />    
+  </head>
+  <body>
     <!-- Navigation Bar -->
     <nav>
-        <div class="logo">GS Technolution</div>
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#testimonials">Testimonials</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
+        <div class="logo" style="font-size: 1.5rem; font-weight: bold; color: #fff; background: #333;  display: inline-block; border-radius: 5px;">
+            GS Technolution
+          </div>
+          
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
     </nav>
 
     <!-- Hero Section -->
     <section id="home" class="hero">
-        <h1>Empowering Your Business with Innovation</h1>
-        <p>Providing cutting-edge solutions to help your business grow.</p>
-        <a href="#contact" class="btn">Get Started</a>
+      <h1>Empowering Your Business with Innovation</h1>
+      <p>Providing cutting-edge solutions to help your business grow.</p>
+      <a href="#contact" class="btn">Get Started</a>
     </section>
 
     <!-- About Us -->
-    <section id="about">
-        <h2>About Us</h2>
-        <p>We specialize in innovative business solutions, helping companies succeed in the digital world.</p>
+    <section
+      id="about"
+      style="
+        padding: 60px 20px;
+        text-align: center;
+        background-color: #f9f9f9;
+        color: #333;
+      "
+    >
+      <h2 style="font-size: 2rem; margin-bottom: 15px">About Us</h2>
+      <p
+        style="
+          font-size: 1rem;
+          line-height: 1.5;
+          max-width: 800px;
+          margin: auto;
+        "
+      >
+        We specialize in providing cutting-edge business solutions designed to
+        help companies thrive in the digital landscape. Our expertise spans
+        across technology-driven innovations, process optimizations, and
+        strategic digital transformations, enabling businesses to enhance
+        efficiency, improve customer engagement, and drive sustainable growth.
+      </p>
     </section>
 
     <!-- Services -->
-    <section id="services">
-        <h2>Our Services</h2>
-        <div class="service-box">
-            <h3>Custom Software Development</h3>
-            <p>Tailored applications for your business needs.</p>
+    <section
+      id="services"
+      style="
+        padding: 60px 20px;
+        text-align: center;
+        background-color: #fff;
+        color: #333;
+      "
+    >
+      <h2 style="font-size: 2rem; margin-bottom: 20px">Our Services</h2>
+      <div
+        style="
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          gap: 20px;
+        "
+      >
+        <div
+          class="service-box"
+          style="
+            flex: 1 1 300px;
+            max-width: 320px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            background: #f9f9f9;
+            border-radius: 8px;
+          "
+        >
+          <h3 style="font-size: 1.2rem; margin-bottom: 10px">
+            Custom Software Development
+          </h3>
+          <p style="font-size: 1rem; line-height: 1.5">
+            Tailored applications for your business needs.
+          </p>
         </div>
-        <div class="service-box">
-            <h3>ERP & SAP Solutions</h3>
-            <p>Optimize your operations with advanced ERP solutions.</p>
+
+        <div
+          class="service-box"
+          style="
+            flex: 1 1 300px;
+            max-width: 320px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            background: #f9f9f9;
+            border-radius: 8px;
+          "
+        >
+          <h3 style="font-size: 1.2rem; margin-bottom: 10px">
+            ERP & SAP Solutions
+          </h3>
+          <p style="font-size: 1rem; line-height: 1.5">
+            Optimize your operations with advanced ERP solutions.
+          </p>
         </div>
-        <div class="service-box">
-            <h3>Cloud & Migration Services</h3>
-            <p>Secure cloud migration and infrastructure support.</p>
+
+        <div
+          class="service-box"
+          style="
+            flex: 1 1 300px;
+            max-width: 320px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            background: #f9f9f9;
+            border-radius: 8px;
+          "
+        >
+          <h3 style="font-size: 1.2rem; margin-bottom: 10px">
+            Cloud & Migration Services
+          </h3>
+          <p style="font-size: 1rem; line-height: 1.5">
+            Secure cloud migration and infrastructure support.
+          </p>
         </div>
+      </div>
     </section>
 
     <!-- Testimonials -->
-    <section id="testimonials">
-        <h2>What Our Clients Say</h2>
-        <p>"This company transformed our business with their solutions. Highly recommend!" – John Doe</p>
+    <section
+      id="testimonials"
+      style="
+        padding: 60px 20px;
+        text-align: center;
+        background-color: #f9f9f9;
+        color: #333;
+      "
+    >
+      <h2 style="font-size: 2rem; margin-bottom: 20px; color: #222">
+        What Our Clients Say
+      </h2>
+      <p
+        style="
+          font-size: 1rem;
+          font-style: italic;
+          line-height: 1.2;
+          max-width: 600px;
+          margin: 0 auto;
+        "
+      >
+        "This company transformed our business with their solutions. Highly
+        recommend!"
+      </p>
+      <p
+        style="
+          font-size: 1rem;
+          font-weight: bold;
+          margin-top: 10px;
+          color: #555;
+        "
+      >
+        - John Doe
+      </p>
     </section>
 
     <!-- Contact Us -->
-    <section id="contact">
-        <h2>Contact Us</h2>
-        <p>Have a project in mind? Let's discuss how we can help!</p>
-        <form>
-            <input type="text" placeholder="Your Name" required>
-            <input type="email" placeholder="Your Email" required>
-            <textarea placeholder="Your Message" required></textarea>
-            <button type="submit">Send Message</button>
-        </form>
-    </section>
+    <section id="contact" 
+    style="padding: 60px 20px; text-align: center; background-color: #f9f9f9; color: #333;">
+<h2 style="font-size: 2rem; margin-bottom: 20px; color: #222;">Contact Us</h2>
+<p style="font-size: 1rem; margin-bottom: 30px;">Got an idea? Let's collaborate and bring it to life!</p>
+
+<form style="max-width: 400px; margin: 0 auto; display: flex; flex-direction: column;">
+<input type="text" placeholder="Your Name" required 
+      style="width: 100%; padding: 10px; margin: 10px 0; border: 1px solid #ddd; border-radius: 5px;"/>
+
+<input type="email" placeholder="Your Email" required 
+      style="width: 100%; padding: 10px; margin: 10px 0; border: 1px solid #ddd; border-radius: 5px;"/>
+
+<textarea placeholder="Your Message" required 
+         style="width: 100%; padding: 10px; margin: 10px 0; border: 1px solid #ddd; border-radius: 5px; height: 100px;"></textarea>
+
+<button type="submit" 
+       style="background: #ff6600; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">
+ Send Message
+</button>
+</form>
+</section>
+
 
     <!-- Footer -->
-    <footer>
-        <p>&copy; 2025 YourCompany. All Rights Reserved.</p>
-    </footer>
-
-</body>
+    <footer style="background: #333; color: white; text-align: center; padding: 15px 0; position: relative; width: 100%;">
+        <p style="margin: 0; font-size: 1rem;">&copy; 2025 GS Technolution. All Rights Reserved.</p>
+      </footer>      
+  </body>
 </html>
